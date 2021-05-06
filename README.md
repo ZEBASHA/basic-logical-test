@@ -46,3 +46,73 @@ public static int maxNumberOf1s(String str) {
 
 		return count;
 	}
+(3) ans:-
+
+
+// C++ program to Find the two repeating
+// elements in a given array
+#include<bits/stdc++.h>
+using namespace std;
+ 
+void printRepeating(int arr[], int size)
+{
+    int i, j;
+    printf(" Repeating elements are ");
+    for(i = 0; i < size; i++)
+        for(j = i + 1; j < size; j++)
+        if(arr[i] == arr[j])
+            cout << arr[i] << " ";
+}
+ 
+// Driver Code
+int main()
+{
+    int arr[] = {4, 2, 4, 5, 2, 3, 1};
+    int arr_size = sizeof(arr)/sizeof(arr[0]);
+    printRepeating(arr, arr_size);
+}
+
+
+(4) ans:-
+
+public class Person {
+	private String name;
+	private String about;
+	private int birthYear;
+	
+	public Person(String name, String about, int birthYear) {
+		this.name = name;
+		this.about = about;
+		this.birthYear = birthYear;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getAbout() {
+		return about;
+	}
+
+	public int getBirthYear() {
+		return birthYear;
+	}
+}
+
+(5) ans:-
+
+var list = {
+  "abc": 4, 
+  "ab2": 10, 
+  "abc3": 5, 
+  "abc5": 6
+};
+
+
+
+list = {
+  "abc": 4, 
+  "ab2": 10, 
+  "abc3": 5, 
+  "abc5": 6
+};
